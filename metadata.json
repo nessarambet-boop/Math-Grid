@@ -1,0 +1,8 @@
+{
+  "name": "Math Grid Adventure",
+  "description": "An Interactive Mathematics Learning Game untuk siswa SD kelas 3–6 bersama robot tutor HIGAYON. Created by VANESSA RAMBET.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Subtle Grid Backdrop -->
+  <g stroke="#ffffff" stroke-opacity="0.18" stroke-width="4">
+    <line x1="128" y1="64" x2="128" y2="448"/>
+    <line x1="256" y1="64" x2="256" y2="448"/>
+    <line x1="384" y1="64" x2="384" y2="448"/>
+    <line x1="64" y1="128" x2="448" y2="128"/>
+    <line x1="64" y1="256" x2="448" y2="256"/>
+    <line x1="64" y1="384" x2="448" y2="384"/>
+  </g>
+  <!-- Highlighted 2x2 Square Tile -->
+  <rect x="136" y="136" width="240" height="240" rx="36" fill="#F59E0B" stroke="#FEF3C7" stroke-width="10"/>
+  <!-- Inner 2x2 Grid Lines -->
+  <line x1="256" y1="142" x2="256" y2="370" stroke="#FEF3C7" stroke-width="8"/>
+  <line x1="142" y1="256" x2="370" y2="256" stroke="#FEF3C7" stroke-width="8"/>
+  <!-- Friendly Robot Visor Badge Center -->
+  <rect x="184" y="196" width="144" height="104" rx="28" fill="#0F172A" stroke="#FFFFFF" stroke-width="8"/>
+  <circle cx="228" cy="248" r="14" fill="#38BDF8"/>
+  <circle cx="284" cy="248" r="14" fill="#38BDF8"/>
+  <path d="M 232 274 Q 256 290 280 274" fill="none" stroke="#FBBF24" stroke-width="7" stroke-linecap="round"/>
+  <!-- Antenna -->
+  <line x1="256" y1="136" x2="256" y2="96" stroke="#FEF3C7" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="256" cy="86" r="18" fill="#FBBF24" stroke="#FFFFFF" stroke-width="6"/>
+</svg>
